@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+    font: 1.5em 'Roboto', sans-serif;
+    background: 600px;
+    position: relative;
+    font-weight: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    margin: 20px;
+    width: 100%;
+    top: auto;
+    padding: 10px;
+}
+
+.table {
+    width: 90%;
+    padding: 0;
+    text-align: center;
+    margin: 20px;
+}
+
+.hideme-book {
+    display: none;
+}
+
+#blockAddEditProduct {
+    float: left;
+    color: #ffffff;
+    display: none;
+}
+
+.deleted-book {
+    float: right;
+}
+
+#blockAddEditProduct {
+    overflow-x: auto;
+}
+
+.deletedList {
+    overflow-x: auto;
+}
+
+#blockRestoreBook {
+    display: none;
+}
